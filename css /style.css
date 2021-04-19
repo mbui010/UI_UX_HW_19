@@ -175,7 +175,7 @@ height: auto;
 
 /* .content p{
   text-align: center; */
-}
+
 
 
 .mySkills h1{
@@ -250,25 +250,7 @@ footer a {
   width: 75px;
 }
 
-@media only screen and (max-width: 600px){
-  .flexContainer { 
-    flex-direction: column;
-  }
-  .flexContainer div {
-    width: 100%;
-  }
-#categoryGrid {
-  margin: 0px 5%;
-  display: grid;
-  grid-template-rows: 300px 300px 300px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: 
-  "research picture"
-  "wireframe picture"
-  "design picture"
-  ;
-}
-}
+
 
 .projectPanel {
   display: flex;
@@ -344,3 +326,24 @@ button .viewProjects{
   opacity: 0;
 }
 
+@media only screen and (max-width: 600px){
+  .flexContainer { 
+    flex-direction: column;
+  }
+  .flexContainer div {
+    width: 100%;
+  }
+}
+#categoryGrid {
+  margin: 10px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "research picture"
+  "wireframe picture"
+  "design picture"
+  "dosbot"
+  "nsa"
+  "child" 
+}
